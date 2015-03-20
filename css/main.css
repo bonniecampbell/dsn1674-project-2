@@ -10,8 +10,26 @@ html{
   box-sizing: inherit;
 }
 ol {
-  list-style-type: none;
+  list-style: none;
+  color: white;
+  margin:0;
+  padding:0;
+}
+
+nav li{
   background-color:#222222;
+  padding: 1em;
+  margin: 0;
+  float: left;
+  width: 50%;
+  border: 1px solid black;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 0.5em;
+  margin: 0;
 }
 
 header {
@@ -49,29 +67,6 @@ h1{
   height: 100px
 }
 
-main{
-  background-color: black;
-  float: left;
-  /*width: calc(75% - 2rem);*/
-  width: 75%;
-  padding: 2em 0 1em 2em;
-  font-family:'noto-sans',sans-serif;
-  font-weight: bold;
-  color: white;
-
-}
-
-aside{
-  background-color: black;
-  float: left;
-  /*width: calc(25% - 2rem);*/
-  width: 50%;
-  padding: 2em 0 1em 0;
-  font-family:'noto-sans',sans-serif;
-  font-weight: bold;
-  color: white;
-  }
-
 .banner {
     position: relative;
     text-align: center;
@@ -86,7 +81,8 @@ aside{
     bottom: 1em;
     width: 100%;
     color: #fff;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+    font-style: italic;
 
   }
 
@@ -187,4 +183,9 @@ clear: both;
 h3 {
   margin: 0;
   padding: 0;
+}
+
+p{
+  margin:1em;
+  line-height: 1.25em;
 }
