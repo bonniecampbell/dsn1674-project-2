@@ -163,29 +163,53 @@ clear: both;
 .zodiac-yellow {
   background: #e4c22a;
   padding: 1em;
+  text-align: center;
 }
 
 .zodiac-black {
   background: #222222;
   padding: 1em;
+  color: white;
+  text-align: center;
 }
 
 .zodiac-red {
   background: #bc0017;
   padding: 1em;
+  color: white;
+  text-align: center;
 }
 
 .zodiac-yellow {
   background: #e4c22a;
   padding: 1em;
+  text-align: center;
 }
 
 h3 {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 p{
   margin:1em;
   line-height: 1.25em;
+}
+
+footer {
+  background: #222222;
+  text-align: center;
+  color: white;
+  padding: 1em;
+}
+
+footer a,
+footer a:link,
+footer:active{
+  color: white;
+}
+
+footer a:hover {
+  color: #bc0017;
 }
